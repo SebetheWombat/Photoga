@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Photoga | Gallery</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+	<link href="../photoStyle.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1><a href="index.html">Photoga</a></h1>
+	</header>
+
+		<div id="nav">
+			<ul class="nav nav-stacked">
+				<li class='stayUp'><a href="index.html">Home</a></li>
+				<li class="stayUp"><a href="about.html">About</a></li>
+				<li class='stayUp'><a href="gallery.html">Gallery</a></li>
+				<li class="dropdown stayUp">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Filter <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li id="all">All</li>
+						<li id="bird">Birds</li>
+						<li id="land">Landscape</li>
+						<li id="man">Man Made</li>
+						<li id="nat">Nature Misc.</li>
+						<li id="plant">Plants</li>
+						<li id="rept">Reptiles & Amphibians</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	
+		
+	<div id="container"></div>
+	<div id="popup">
+		<p>Click to close</p>
+		<div id="content">
+			<img src="/">
+		</div>
+	</div>
+	<script src="../scripts/photoga.js"></script>
+</body>
+</html>
