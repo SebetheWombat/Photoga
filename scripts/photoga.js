@@ -1,13 +1,13 @@
 var imageSrc = {
-	'birds' : ['../images/sparrow.jpg','../images/chickadee.jpg','../images/duck.jpg','../images/nuthatch.jpg','../images/whiteThroatedSparrow.jpg','../images/junco.jpg',
-	'../images/goldfinch.jpg','../images/goldfinch1.jpg','../images/sparrow1.jpg','../images/chippingSparrow.jpg'],
-	'landscape' : ['../images/baldRock.jpg','../images/montpellierSunset.jpg','../images/baldMtn.jpg','../images/barrettsCove1.jpg','../images/camdenHills.jpg',
-	'../images/camdenHills1.jpg'],
-	'manMade' : ['../images/rumford.jpg','../images/camden.jpg','../images/beechHill.jpg','../images/vtChurchDark.jpg','../images/montpellierVT.jpg','../images/vtchurch.jpg','../images/vtBridge.jpg',
-	'../images/vtBridge1.jpg','../images/camdenChuch.jpg'],
-	'reptAmphib' :['../images/snake.jpg'],
-	'plants' : ['../images/burrs.jpg'],
-	'miscNature' : ['../images/ice.jpg','../images/fire.jpg']
+	'birds' : ['images/sparrow.jpg','images/chickadee.jpg','images/duck.jpg','images/nuthatch.jpg','images/whiteThroatedSparrow.jpg','images/junco.jpg',
+	'images/goldfinch.jpg','images/goldfinch1.jpg','images/sparrow1.jpg','images/chippingSparrow.jpg'],
+	'landscape' : ['images/baldRock.jpg','images/montpellierSunset.jpg','images/baldMtn.jpg','images/barrettsCove1.jpg','images/camdenHills.jpg',
+	'images/camdenHills1.jpg'],
+	'manMade' : ['images/rumford.jpg','images/camden.jpg','images/beechHill.jpg','images/vtChurchDark.jpg','images/montpellierVT.jpg','images/vtchurch.jpg','images/vtBridge.jpg',
+	'images/vtBridge1.jpg','images/camdenChuch.jpg'],
+	'reptAmphib' :['images/snake.jpg'],
+	'plants' : ['images/burrs.jpg'],
+	'miscNature' : ['images/ice.jpg','images/fire.jpg']
 };
 var loadIt;
 
@@ -90,7 +90,7 @@ $("#all").click(function(){
 $(".dropdown").mouseover(function(){
 	$(".dropdown-menu").show();
 });
-$(".dropdown-menu, .dropdown").mouseout(function(){
+$(".dropdown-menu").mouseout(function(){
 	$(".dropdown-menu").hide();
 });
 function openUp(){
